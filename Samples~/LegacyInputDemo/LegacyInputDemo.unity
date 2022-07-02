@@ -226,9 +226,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1476148657}
   - component: {fileID: 1476148656}
-  - component: {fileID: 1476148658}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Demo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -329,66 +328,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1476148658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476148655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c8ba306f6c280489b5f16746625269, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  voidShortcut:
-    Enabled: 1
-    Input:
-      m_UseReference: 0
-      m_Action:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: 8c40c49c-f29e-4b3f-aadd-aea14fa1341b
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings: []
-        m_Flags: 0
-      m_Reference: {fileID: 0}
-  T0Shortcut:
-    Enabled: 1
-    Input:
-      m_UseReference: 1
-      m_Action:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: bd742405-d981-418d-b585-8ec12bd3e050
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings: []
-        m_Flags: 0
-      m_Reference: {fileID: 0}
-    ArgumentNames:
-    - Argument 0
-    Data0: {fileID: 0}
-  OtherT0Test:
-    Enabled: 1
-    Input:
-      m_UseReference: 0
-      m_Action:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: e2cba334-7d72-4669-b701-0c1c675e76da
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings: []
-        m_Flags: 0
-      m_Reference: {fileID: 0}
-    ArgumentNames:
-    - Argument 0
-    Data0: {fileID: 0}
 --- !u!1 &1936710628
 GameObject:
   m_ObjectHideFlags: 0
