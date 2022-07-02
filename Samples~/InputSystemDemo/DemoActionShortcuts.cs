@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 
 
-namespace CobayeStudio.Shortcuts
+namespace EasyShortcuts.Samples
 {
     public class DemoActionShortcuts : InputActionShortcutSet
     {

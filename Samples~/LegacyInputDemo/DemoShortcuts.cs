@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace CobayeStudio.Shortcuts.Demo
+namespace EasyShortcuts.Samples
 {
     public class DemoShortcuts : ShortcutSet
     {
