@@ -1,0 +1,17 @@
+{
+    "name": "CobayeStudio.EasyShortcuts_InputSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "CobayeStudio.EasyShortcuts_InputSystem",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "com.lemoissonneur.easyshortcut",
+  "displayName": "Easy Shortcut",
+  "description": "Easy Shortcut todo",
+  "keywords": [
+    "lemoissonneur",
+    "shortcut"
+  ],
+  "unity": "2020.3",
+  "unityRelease": "",
+  "dependencies": {
+  },
+  "author": {
+    "name": "Arthur LE BARON",
+    "email": "arthur.le-baron@cobayestudio.com",
+    "url": "https://www.github.com/lemoissonneur"
+  },
+  "license": "See LICENSE.md file",
+  "licensesUrl": "",
+  "changelogUrl": "",
+  "documentationUrl": "",
+  "samples" : [
+  ],
+  "hideInEditor": false
+}
