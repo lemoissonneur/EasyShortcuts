@@ -1,8 +1,8 @@
 {
-    "name": "CobayeStudio.EasyShortcuts_Classic.Editor",
+    "name": "lemoissonneur.EasyShortcuts.LegacyInput.Editor",
     "rootNamespace": "",
     "references": [
-        "CobayeStudio.EasyShortcuts_Classic"
+        "lemoissonneur.EasyShortcuts.LegacyInput.Runtime"
     ],
     "includePlatforms": [
         "Editor"

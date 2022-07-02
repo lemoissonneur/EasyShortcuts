@@ -1,10 +1,7 @@
 {
-    "name": "CobayeStudio.EasyShortcuts_InputSystem.Editor",
+    "name": "lemoissonneur.EasyShortcuts.LegacyInput.Runtime",
     "rootNamespace": "",
-    "references": [
-        "CobayeStudio.EasyShortcuts_InputSystem",
-        "Unity.InputSystem"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
