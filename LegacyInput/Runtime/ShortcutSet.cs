@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Collections.Generic;
 
 
-namespace CobayeStudio.Shortcuts
+namespace Shortcuts
 {
     public abstract class ShortcutSet : MonoBehaviour
     {

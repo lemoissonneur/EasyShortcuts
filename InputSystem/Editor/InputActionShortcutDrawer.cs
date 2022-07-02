@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace CobayeStudio.Shortcuts.Editor
+namespace Shortcuts.Editor
 {
     //[CustomPropertyDrawer(typeof(InputActionShortcut), true)]
     public class InputActionShortcutDrawer : PropertyDrawer

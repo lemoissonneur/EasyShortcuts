@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-namespace CobayeStudio.Shortcuts
+namespace Shortcuts
 {
     [Serializable]
     public class InputActionShortcut

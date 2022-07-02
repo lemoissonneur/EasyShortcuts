@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace CobayeStudio.Shortcuts
+namespace Shortcuts
 {
     [CustomPropertyDrawer(typeof(Shortcut), true)]
     public class ShortcutDrawer : PropertyDrawer

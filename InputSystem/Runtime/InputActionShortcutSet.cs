@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace CobayeStudio.Shortcuts
+namespace Shortcuts
 {
     public abstract class InputActionShortcutSet : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace CobayeStudio.Shortcuts
+namespace Shortcuts
 {
     [Serializable]
     public class Shortcut
