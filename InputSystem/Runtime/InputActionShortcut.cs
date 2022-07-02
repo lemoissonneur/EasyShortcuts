@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-namespace Shortcuts
+namespace EasyShortcuts
 {
     [Serializable]
     public class InputActionShortcut

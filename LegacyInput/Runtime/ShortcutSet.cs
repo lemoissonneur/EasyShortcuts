@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Collections.Generic;
 
 
-namespace Shortcuts
+namespace EasyShortcuts
 {
     public abstract class ShortcutSet : MonoBehaviour
     {

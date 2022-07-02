@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Shortcuts.Editor
+namespace EasyShortcuts.Editor
 {
     //[CustomPropertyDrawer(typeof(InputActionShortcut), true)]
     public class InputActionShortcutDrawer : PropertyDrawer

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Shortcuts
+namespace EasyShortcuts
 {
     public abstract class InputActionShortcutSet : MonoBehaviour
     {

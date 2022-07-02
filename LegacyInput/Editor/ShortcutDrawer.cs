@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Shortcuts
+namespace EasyShortcuts
 {
     [CustomPropertyDrawer(typeof(Shortcut), true)]
     public class ShortcutDrawer : PropertyDrawer

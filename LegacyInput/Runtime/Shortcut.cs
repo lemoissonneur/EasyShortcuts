@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Shortcuts
+namespace EasyShortcuts
 {
     [Serializable]
     public class Shortcut
