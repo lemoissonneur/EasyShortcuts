@@ -1,0 +1,339 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://lemoissonneur.github.io/EasyShortcuts/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://lemoissonneur.github.io/EasyShortcuts/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "D:/a/EasyShortcuts/EasyShortcuts/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcut-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcut-1.html",
+          "hash": "1ZLN0sZaK7HgE0GIXsPcrHdfD60use8bhcYXHc6oH7Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcut-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcut-2.html",
+          "hash": "jNOnlDKnSs6Vd+G+xzK2hXjYY6Ax7AA+5pT1t9zJJMI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcut-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcut-3.html",
+          "hash": "3u+Q2ii6e8II0N4GcE1xMvWF8Zmkg0dWYdtHgb/tpQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcut-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcut-4.html",
+          "hash": "dlTt90TZjwoKBZSjj5jwxwVCjY1BdwvBoTJSc7hWqqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcut.html",
+          "hash": "o7kNxDm9mMWwGv2qD54DsRXp6ps/PM/iR0Q48qovpJ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.InputActionShortcutSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.InputActionShortcutSet.html",
+          "hash": "nK1u0K/eBnnK+pJ1weWCNtoEXZegkLVhNJ2u+KScTSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-1.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-1.Function.html",
+          "hash": "VoYhjohurwZ18WBBtRj4W47gjeY2Nb9zKNEYUHDUgdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-1.html",
+          "hash": "O/9fR50ZKuCPS50iFIZX4+6zFpJGV0zcYpSZVj9tkKw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-2.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-2.Function.html",
+          "hash": "wNZ61NWsmFCtCQRpKz/Ivud9J6RMIhl8kOpqbXLs9DY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-2.html",
+          "hash": "fvOrY+Y4ejM7lyumsqduJ6DiOqLFVGiIvp8lJ9Wxtz4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-3.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-3.Function.html",
+          "hash": "kWo/RoGwdGKMLLYvj75JaDDYqiJfNQ9VgcoJn2+Uwns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-3.html",
+          "hash": "Em9Vkl7ofJEYY9NK6v6iGsWAo0EAHKMUbEupgaLLwuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-4.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-4.Function.html",
+          "hash": "qvabPVla56O/ilS1+OAW78o/lwsDnR+WrLGKeA/S+m4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut-4.html",
+          "hash": "B/vpiGgmfJfMlT39HWe5GqiuF+UXwpHptd/FBbIVrSg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut.Function.html",
+          "hash": "mteKQT7MUBKToCn+rG7tACxViK3rFz+8ggiWAGjA0iE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut.KeyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut.KeyType.html",
+          "hash": "gckmdlRWi+G97cysRoDhQ95GFIxweLcUQiOchAaR/ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut.Trigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut.Trigger.html",
+          "hash": "JWrPiO0racOU6X1/TNystK/mk0EywhHojWSET8ZJORA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.Shortcut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.Shortcut.html",
+          "hash": "KPchiWTRjECOAd1FspH8zb/hNl2J4QYSYZNfn971/cI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.ShortcutDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.ShortcutDrawer.html",
+          "hash": "dA4DJeasrYP0ZnSyS5qbuJ9CCb4WKYeHg8gO8nfjPgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.ShortcutSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.ShortcutSet.html",
+          "hash": "ba0Y1XtAJ6nYLjQtSm+XH2+UCrYX7vv659gNSVl1yZw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EasyShortcuts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EasyShortcuts.html",
+          "hash": "tSw95c7KKE1cZMtaFNyICjA7OdLzX3CQgleT4SfXc2I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "x8rKi7T5IEZuo1X9O8e0TB0VRISsARpaW0d12ENYrjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 21,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
