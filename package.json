@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "com.lemoissonneur.easyshortcut",
-  "displayName": "Easy Shortcut",
-  "description": "Easy Shortcut todo",
+  "name": "com.lemoissonneur.easyshortcuts",
+  "displayName": "Easy Shortcuts",
+  "description": "Easy Shortcuts",
   "keywords": [
     "lemoissonneur",
     "shortcut"
@@ -10,6 +10,7 @@
   "unity": "2020.3",
   "unityRelease": "",
   "dependencies": {
+    "com.unity.inputsystem": "1.3.0"
   },
   "author": {
     "name": "Arthur LE BARON",
@@ -18,9 +19,19 @@
   },
   "license": "See LICENSE.md file",
   "licensesUrl": "",
-  "changelogUrl": "",
-  "documentationUrl": "",
+  "changelogUrl": "https://github.com/lemoissonneur/EasyShortcuts/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://lemoissonneur.github.io/EasyShortcuts/",
   "samples" : [
+    {
+      "displayName": "LegacyInput Demo",
+      "description": "LegacyInput Demo.",
+      "path": "Samples~/LegacyInputDemo"
+    },
+    {
+      "displayName": "InputSystem Demo",
+      "description": "InputSystem Demo.",
+      "path": "Samples~/InputSystemDemo"
+    }
   ],
   "hideInEditor": false
 }
