@@ -41,7 +41,7 @@ namespace EasyShortcuts
         private Rect _dataRect(Rect position, int index) => new Rect()
         {
             x = position.x,
-            y = position.y + (EditorGUIUtility.singleLineHeight + 2) * (index+1),
+            y = position.y + (EditorGUIUtility.singleLineHeight + 2) * index,
             width = position.width,
             height = EditorGUIUtility.singleLineHeight
         };
@@ -50,13 +50,13 @@ namespace EasyShortcuts
         {
             int lineCount;
 
-            if (property.FindPropertyRelative(nameof(Shortcut<object, object, object, object>.Data3)) != null) lineCount = 5;
-            else if (property.FindPropertyRelative(nameof(Shortcut<object, object, object>.Data2)) != null) lineCount = 4;
-            else if (property.FindPropertyRelative(nameof(Shortcut<object, object>.Data1)) != null) lineCount = 3;
-            else if (property.FindPropertyRelative(nameof(Shortcut<object>.Data0)) != null) lineCount = 2;
+            if (property.FindPropertyRelative(nameof(Shortcut<object, object, object, object>.Data4)) != null) lineCount = 5;
+            else if (property.FindPropertyRelative(nameof(Shortcut<object, object, object>.Data3)) != null) lineCount = 4;
+            else if (property.FindPropertyRelative(nameof(Shortcut<object, object>.Data2)) != null) lineCount = 3;
+            else if (property.FindPropertyRelative(nameof(Shortcut<object>.Data1)) != null) lineCount = 2;
             else lineCount = 1;
 
-            return EditorGUIUtility.singleLineHeight * lineCount + 15;
+            return EditorGUIUtility.singleLineHeight * (lineCount + 1);
         }
 
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
@@ -65,10 +65,10 @@ namespace EasyShortcuts
             SerializedProperty _keyModeProperty = property.FindPropertyRelative(nameof(Shortcut.KeyMode));
             SerializedProperty _holdKeyProperty = property.FindPropertyRelative(nameof(Shortcut.HoldKey));
             SerializedProperty _downKeyProperty = property.FindPropertyRelative(nameof(Shortcut.DownKey));
-            SerializedProperty _data0Property = property.FindPropertyRelative(nameof(Shortcut<object>.Data0));
-            SerializedProperty _data1Property = property.FindPropertyRelative(nameof(Shortcut<object, object>.Data1));
-            SerializedProperty _data2Property = property.FindPropertyRelative(nameof(Shortcut<object, object, object>.Data2));
-            SerializedProperty _data3Property = property.FindPropertyRelative(nameof(Shortcut<object, object, object, object>.Data3));
+            SerializedProperty _data1Property = property.FindPropertyRelative(nameof(Shortcut<object>.Data1));
+            SerializedProperty _data2Property = property.FindPropertyRelative(nameof(Shortcut<object, object>.Data2));
+            SerializedProperty _data3Property = property.FindPropertyRelative(nameof(Shortcut<object, object, object>.Data3));
+            SerializedProperty _data4Property = property.FindPropertyRelative(nameof(Shortcut<object, object, object, object>.Data4));
             SerializedProperty _argumentsNamesProperty = property.FindPropertyRelative(nameof(Shortcut<object, object>.ArgumentNames));
 
             // FIRST LINE
@@ -94,16 +94,24 @@ namespace EasyShortcuts
             }
 
             // If input needed
-            if (_data0Property != null)
-                EditorGUI.PropertyField(_dataRect(position, 0), _data0Property, new GUIContent(_argumentsNamesProperty.GetArrayElementAtIndex(0).stringValue));
             if (_data1Property != null)
-                EditorGUI.PropertyField(_dataRect(position, 1), _data1Property, new GUIContent(_argumentsNamesProperty.GetArrayElementAtIndex(1).stringValue));
+                DrawDataField(position, _data1Property, _argumentsNamesProperty, 1);
             if (_data2Property != null)
-                EditorGUI.PropertyField(_dataRect(position, 2), _data2Property, new GUIContent(_argumentsNamesProperty.GetArrayElementAtIndex(2).stringValue));
+                DrawDataField(position, _data2Property, _argumentsNamesProperty, 2);
             if (_data3Property != null)
-                EditorGUI.PropertyField(_dataRect(position, 3), _data3Property, new GUIContent(_argumentsNamesProperty.GetArrayElementAtIndex(3).stringValue));
-            
+                DrawDataField(position, _data3Property, _argumentsNamesProperty, 3);
+            if (_data4Property != null)
+                DrawDataField(position, _data4Property, _argumentsNamesProperty, 4);
+
             property.serializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawDataField(Rect position, SerializedProperty data, SerializedProperty names, int index)
+        {
+            EditorGUI.PropertyField(
+                _dataRect(position, index),
+                data,
+                new GUIContent(names.GetArrayElementAtIndex(index-1).stringValue));
         }
     }
 }

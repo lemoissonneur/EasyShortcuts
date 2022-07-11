@@ -212,6 +212,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -256,64 +257,74 @@ MonoBehaviour:
     HoldKey: 0
     DownKey: 0
     ArgumentNames:
-    - Argument 0
-    Data0: {x: 0, y: 0, z: 0}
+    - Argument 1
+    Data1: {x: 0, y: 0, z: 0}
   Input2Shortcut:
     Enabled: 1
     KeyMode: 0
     HoldKey: 0
     DownKey: 0
     ArgumentNames:
-    - Argument 0
-    - 'Argument 1 '
-    Data0: {fileID: 0}
-    Data1: {x: 0, y: 0, z: 0}
+    - Argument 1
+    - Argument 2
+    Data1: {fileID: 0}
+    Data2: {x: 0, y: 0, z: 0}
   Input3Shortcut:
     Enabled: 1
     KeyMode: 0
     HoldKey: 0
     DownKey: 0
     ArgumentNames:
-    - Argument 0
     - Argument 1
     - Argument 2
-    Data0: {fileID: 0}
+    - Argument 3
     Data1: {fileID: 0}
     Data2: {fileID: 0}
+    Data3: {fileID: 0}
   Input4Shortcut:
     Enabled: 1
     KeyMode: 0
     HoldKey: 0
     DownKey: 0
     ArgumentNames:
-    - Argument 0
     - Argument 1
     - Argument 2
     - Argument 3
-    Data0: {fileID: 0}
+    - Argument 4
     Data1: {fileID: 0}
     Data2: {fileID: 0}
     Data3: {fileID: 0}
-  FOVup:
-    Enabled: 1
-    KeyMode: 0
-    HoldKey: 0
-    DownKey: 0
-    ArgumentNames:
-    - Argument 0
-    - 'Argument 1 '
-    Data0: {fileID: 0}
-    Data1: 0
+    Data4: {fileID: 0}
   FOVdown:
     Enabled: 1
     KeyMode: 0
     HoldKey: 0
     DownKey: 0
     ArgumentNames:
-    - Camera
-    - truc
-    Data0: {fileID: 0}
-    Data1: 0
+    - foo
+    - bar
+    Data1: {fileID: 0}
+    Data2: 0
+  ShortcutA:
+    Enabled: 1
+    KeyMode: 0
+    HoldKey: 0
+    DownKey: 0
+    ArgumentNames:
+    - foo
+    - bar
+    Data1: {fileID: 0}
+    Data2: {x: 0, y: 0, z: 0}
+  ShortcutB:
+    Enabled: 1
+    KeyMode: 0
+    HoldKey: 0
+    DownKey: 0
+    ArgumentNames:
+    - foo
+    - bar
+    Data1: {fileID: 0}
+    Data2: {x: 0, y: 0, z: 0}
 --- !u!4 &1476148657
 Transform:
   m_ObjectHideFlags: 0
@@ -324,6 +335,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -407,6 +419,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

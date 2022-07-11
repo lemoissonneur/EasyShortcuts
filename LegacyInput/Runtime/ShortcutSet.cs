@@ -23,7 +23,7 @@ namespace EasyShortcuts
         private void Update()
         {
             foreach (Shortcut shortcut in _shortcuts)
-                shortcut.Check();
+                shortcut.ActIfTriggered();
         }
     }
 }
