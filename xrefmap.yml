@@ -19,15 +19,21 @@ references:
   commentId: M:EasyShortcuts.InputActionShortcut.#ctor
   fullName: EasyShortcuts.InputActionShortcut.InputActionShortcut()
   nameWithType: InputActionShortcut.InputActionShortcut()
-- uid: EasyShortcuts.InputActionShortcut.#ctor(Action{InputAction.CallbackContext})
-  name: InputActionShortcut(Action<InputAction.CallbackContext>)
-  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut__ctor_Action_InputAction_CallbackContext__
-  commentId: M:EasyShortcuts.InputActionShortcut.#ctor(Action{InputAction.CallbackContext})
-  name.vb: InputActionShortcut(Action(Of InputAction.CallbackContext))
-  fullName: EasyShortcuts.InputActionShortcut.InputActionShortcut(Action<InputAction.CallbackContext>)
-  fullName.vb: EasyShortcuts.InputActionShortcut.InputActionShortcut(Action(Of InputAction.CallbackContext))
-  nameWithType: InputActionShortcut.InputActionShortcut(Action<InputAction.CallbackContext>)
-  nameWithType.vb: InputActionShortcut.InputActionShortcut(Action(Of InputAction.CallbackContext))
+- uid: EasyShortcuts.InputActionShortcut.#ctor(Action)
+  name: InputActionShortcut(Action)
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut__ctor_Action_
+  commentId: M:EasyShortcuts.InputActionShortcut.#ctor(Action)
+  fullName: EasyShortcuts.InputActionShortcut.InputActionShortcut(Action)
+  nameWithType: InputActionShortcut.InputActionShortcut(Action)
+- uid: EasyShortcuts.InputActionShortcut.#ctor(Action{Context})
+  name: InputActionShortcut(Action<Context>)
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut__ctor_Action_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut.#ctor(Action{Context})
+  name.vb: InputActionShortcut(Action(Of Context))
+  fullName: EasyShortcuts.InputActionShortcut.InputActionShortcut(Action<Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut.InputActionShortcut(Action(Of Context))
+  nameWithType: InputActionShortcut.InputActionShortcut(Action<Context>)
+  nameWithType.vb: InputActionShortcut.InputActionShortcut(Action(Of Context))
 - uid: EasyShortcuts.InputActionShortcut.#ctor*
   name: InputActionShortcut
   href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut__ctor_
@@ -61,276 +67,290 @@ references:
   isSpec: "True"
   fullName: EasyShortcuts.InputActionShortcut.Enable
   nameWithType: InputActionShortcut.Enable
-- uid: EasyShortcuts.InputActionShortcut.Enabled
-  name: Enabled
-  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_Enabled
-  commentId: F:EasyShortcuts.InputActionShortcut.Enabled
-  fullName: EasyShortcuts.InputActionShortcut.Enabled
-  nameWithType: InputActionShortcut.Enabled
-- uid: EasyShortcuts.InputActionShortcut.Input
-  name: Input
-  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_Input
-  commentId: F:EasyShortcuts.InputActionShortcut.Input
-  fullName: EasyShortcuts.InputActionShortcut.Input
-  nameWithType: InputActionShortcut.Input
-- uid: EasyShortcuts.InputActionShortcut.UserAction
-  name: UserAction
-  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_UserAction
-  commentId: F:EasyShortcuts.InputActionShortcut.UserAction
-  fullName: EasyShortcuts.InputActionShortcut.UserAction
-  nameWithType: InputActionShortcut.UserAction
+- uid: EasyShortcuts.InputActionShortcut.m_Input
+  name: m_Input
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_m_Input
+  commentId: F:EasyShortcuts.InputActionShortcut.m_Input
+  fullName: EasyShortcuts.InputActionShortcut.m_Input
+  nameWithType: InputActionShortcut.m_Input
+- uid: EasyShortcuts.InputActionShortcut.m_Phase
+  name: m_Phase
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_m_Phase
+  commentId: F:EasyShortcuts.InputActionShortcut.m_Phase
+  fullName: EasyShortcuts.InputActionShortcut.m_Phase
+  nameWithType: InputActionShortcut.m_Phase
+- uid: EasyShortcuts.InputActionShortcut.SetListener(Action{Context})
+  name: SetListener(Action<Context>)
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_SetListener_Action_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut.SetListener(Action{Context})
+  name.vb: SetListener(Action(Of Context))
+  fullName: EasyShortcuts.InputActionShortcut.SetListener(Action<Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut.SetListener(Action(Of Context))
+  nameWithType: InputActionShortcut.SetListener(Action<Context>)
+  nameWithType.vb: InputActionShortcut.SetListener(Action(Of Context))
+- uid: EasyShortcuts.InputActionShortcut.SetListener*
+  name: SetListener
+  href: api/EasyShortcuts.InputActionShortcut.html#EasyShortcuts_InputActionShortcut_SetListener_
+  commentId: Overload:EasyShortcuts.InputActionShortcut.SetListener
+  isSpec: "True"
+  fullName: EasyShortcuts.InputActionShortcut.SetListener
+  nameWithType: InputActionShortcut.SetListener
 - uid: EasyShortcuts.InputActionShortcut`1
-  name: InputActionShortcut<T0>
+  name: InputActionShortcut<T1>
   href: api/EasyShortcuts.InputActionShortcut-1.html
   commentId: T:EasyShortcuts.InputActionShortcut`1
-  name.vb: InputActionShortcut(Of T0)
-  fullName: EasyShortcuts.InputActionShortcut<T0>
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0)
-  nameWithType: InputActionShortcut<T0>
-  nameWithType.vb: InputActionShortcut(Of T0)
-- uid: EasyShortcuts.InputActionShortcut`1.#ctor(Action{InputAction.CallbackContext,`0})
-  name: InputActionShortcut(Action<InputAction.CallbackContext, T0>)
-  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1__ctor_Action_InputAction_CallbackContext__0__
-  commentId: M:EasyShortcuts.InputActionShortcut`1.#ctor(Action{InputAction.CallbackContext,`0})
-  name.vb: InputActionShortcut(Action(Of InputAction.CallbackContext, T0))
-  fullName: EasyShortcuts.InputActionShortcut<T0>.InputActionShortcut(Action<InputAction.CallbackContext, T0>)
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0).InputActionShortcut(Action(Of InputAction.CallbackContext, T0))
-  nameWithType: InputActionShortcut<T0>.InputActionShortcut(Action<InputAction.CallbackContext, T0>)
-  nameWithType.vb: InputActionShortcut(Of T0).InputActionShortcut(Action(Of InputAction.CallbackContext, T0))
+  name.vb: InputActionShortcut(Of T1)
+  fullName: EasyShortcuts.InputActionShortcut<T1>
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1)
+  nameWithType: InputActionShortcut<T1>
+  nameWithType.vb: InputActionShortcut(Of T1)
+- uid: EasyShortcuts.InputActionShortcut`1.#ctor(Action{`0,Context})
+  name: InputActionShortcut(Action<T1, Context>)
+  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1__ctor_Action__0_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut`1.#ctor(Action{`0,Context})
+  name.vb: InputActionShortcut(Action(Of T1, Context))
+  fullName: EasyShortcuts.InputActionShortcut<T1>.InputActionShortcut(Action<T1, Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1).InputActionShortcut(Action(Of T1, Context))
+  nameWithType: InputActionShortcut<T1>.InputActionShortcut(Action<T1, Context>)
+  nameWithType.vb: InputActionShortcut(Of T1).InputActionShortcut(Action(Of T1, Context))
+- uid: EasyShortcuts.InputActionShortcut`1.#ctor(Action{`0})
+  name: InputActionShortcut(Action<T1>)
+  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1__ctor_Action__0__
+  commentId: M:EasyShortcuts.InputActionShortcut`1.#ctor(Action{`0})
+  name.vb: InputActionShortcut(Action(Of T1))
+  fullName: EasyShortcuts.InputActionShortcut<T1>.InputActionShortcut(Action<T1>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1).InputActionShortcut(Action(Of T1))
+  nameWithType: InputActionShortcut<T1>.InputActionShortcut(Action<T1>)
+  nameWithType.vb: InputActionShortcut(Of T1).InputActionShortcut(Action(Of T1))
 - uid: EasyShortcuts.InputActionShortcut`1.#ctor*
   name: InputActionShortcut
   href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1__ctor_
   commentId: Overload:EasyShortcuts.InputActionShortcut`1.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.InputActionShortcut<T0>.InputActionShortcut
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0).InputActionShortcut
-  nameWithType: InputActionShortcut<T0>.InputActionShortcut
-  nameWithType.vb: InputActionShortcut(Of T0).InputActionShortcut
+  fullName: EasyShortcuts.InputActionShortcut<T1>.InputActionShortcut
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1).InputActionShortcut
+  nameWithType: InputActionShortcut<T1>.InputActionShortcut
+  nameWithType.vb: InputActionShortcut(Of T1).InputActionShortcut
 - uid: EasyShortcuts.InputActionShortcut`1.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1_ArgumentNames
   commentId: F:EasyShortcuts.InputActionShortcut`1.ArgumentNames
-  fullName: EasyShortcuts.InputActionShortcut<T0>.ArgumentNames
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0).ArgumentNames
-  nameWithType: InputActionShortcut<T0>.ArgumentNames
-  nameWithType.vb: InputActionShortcut(Of T0).ArgumentNames
-- uid: EasyShortcuts.InputActionShortcut`1.Data0
-  name: Data0
-  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1_Data0
-  commentId: F:EasyShortcuts.InputActionShortcut`1.Data0
-  fullName: EasyShortcuts.InputActionShortcut<T0>.Data0
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0).Data0
-  nameWithType: InputActionShortcut<T0>.Data0
-  nameWithType.vb: InputActionShortcut(Of T0).Data0
-- uid: EasyShortcuts.InputActionShortcut`1.UserAction
-  name: UserAction
-  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1_UserAction
-  commentId: F:EasyShortcuts.InputActionShortcut`1.UserAction
-  fullName: EasyShortcuts.InputActionShortcut<T0>.UserAction
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0).UserAction
-  nameWithType: InputActionShortcut<T0>.UserAction
-  nameWithType.vb: InputActionShortcut(Of T0).UserAction
+  fullName: EasyShortcuts.InputActionShortcut<T1>.ArgumentNames
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1).ArgumentNames
+  nameWithType: InputActionShortcut<T1>.ArgumentNames
+  nameWithType.vb: InputActionShortcut(Of T1).ArgumentNames
+- uid: EasyShortcuts.InputActionShortcut`1.Data1
+  name: Data1
+  href: api/EasyShortcuts.InputActionShortcut-1.html#EasyShortcuts_InputActionShortcut_1_Data1
+  commentId: F:EasyShortcuts.InputActionShortcut`1.Data1
+  fullName: EasyShortcuts.InputActionShortcut<T1>.Data1
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1).Data1
+  nameWithType: InputActionShortcut<T1>.Data1
+  nameWithType.vb: InputActionShortcut(Of T1).Data1
 - uid: EasyShortcuts.InputActionShortcut`2
-  name: InputActionShortcut<T0, T1>
+  name: InputActionShortcut<T1, T2>
   href: api/EasyShortcuts.InputActionShortcut-2.html
   commentId: T:EasyShortcuts.InputActionShortcut`2
-  name.vb: InputActionShortcut(Of T0, T1)
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1)
-  nameWithType: InputActionShortcut<T0, T1>
-  nameWithType.vb: InputActionShortcut(Of T0, T1)
-- uid: EasyShortcuts.InputActionShortcut`2.#ctor(Action{InputAction.CallbackContext,`0,`1})
-  name: InputActionShortcut(Action<InputAction.CallbackContext, T0, T1>)
-  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2__ctor_Action_InputAction_CallbackContext__0__1__
-  commentId: M:EasyShortcuts.InputActionShortcut`2.#ctor(Action{InputAction.CallbackContext,`0,`1})
-  name.vb: InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1))
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1>)
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1))
-  nameWithType: InputActionShortcut<T0, T1>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1>)
-  nameWithType.vb: InputActionShortcut(Of T0, T1).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1))
+  name.vb: InputActionShortcut(Of T1, T2)
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2)
+  nameWithType: InputActionShortcut<T1, T2>
+  nameWithType.vb: InputActionShortcut(Of T1, T2)
+- uid: EasyShortcuts.InputActionShortcut`2.#ctor(Action{`0,`1,Context})
+  name: InputActionShortcut(Action<T1, T2, Context>)
+  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2__ctor_Action__0__1_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut`2.#ctor(Action{`0,`1,Context})
+  name.vb: InputActionShortcut(Action(Of T1, T2, Context))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.InputActionShortcut(Action<T1, T2, Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).InputActionShortcut(Action(Of T1, T2, Context))
+  nameWithType: InputActionShortcut<T1, T2>.InputActionShortcut(Action<T1, T2, Context>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2).InputActionShortcut(Action(Of T1, T2, Context))
+- uid: EasyShortcuts.InputActionShortcut`2.#ctor(Action{`0,`1})
+  name: InputActionShortcut(Action<T1, T2>)
+  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2__ctor_Action__0__1__
+  commentId: M:EasyShortcuts.InputActionShortcut`2.#ctor(Action{`0,`1})
+  name.vb: InputActionShortcut(Action(Of T1, T2))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.InputActionShortcut(Action<T1, T2>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).InputActionShortcut(Action(Of T1, T2))
+  nameWithType: InputActionShortcut<T1, T2>.InputActionShortcut(Action<T1, T2>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2).InputActionShortcut(Action(Of T1, T2))
 - uid: EasyShortcuts.InputActionShortcut`2.#ctor*
   name: InputActionShortcut
   href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2__ctor_
   commentId: Overload:EasyShortcuts.InputActionShortcut`2.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.InputActionShortcut
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).InputActionShortcut
-  nameWithType: InputActionShortcut<T0, T1>.InputActionShortcut
-  nameWithType.vb: InputActionShortcut(Of T0, T1).InputActionShortcut
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.InputActionShortcut
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).InputActionShortcut
+  nameWithType: InputActionShortcut<T1, T2>.InputActionShortcut
+  nameWithType.vb: InputActionShortcut(Of T1, T2).InputActionShortcut
 - uid: EasyShortcuts.InputActionShortcut`2.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2_ArgumentNames
   commentId: F:EasyShortcuts.InputActionShortcut`2.ArgumentNames
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.ArgumentNames
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).ArgumentNames
-  nameWithType: InputActionShortcut<T0, T1>.ArgumentNames
-  nameWithType.vb: InputActionShortcut(Of T0, T1).ArgumentNames
-- uid: EasyShortcuts.InputActionShortcut`2.Data0
-  name: Data0
-  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2_Data0
-  commentId: F:EasyShortcuts.InputActionShortcut`2.Data0
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.Data0
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).Data0
-  nameWithType: InputActionShortcut<T0, T1>.Data0
-  nameWithType.vb: InputActionShortcut(Of T0, T1).Data0
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.ArgumentNames
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).ArgumentNames
+  nameWithType: InputActionShortcut<T1, T2>.ArgumentNames
+  nameWithType.vb: InputActionShortcut(Of T1, T2).ArgumentNames
 - uid: EasyShortcuts.InputActionShortcut`2.Data1
   name: Data1
   href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2_Data1
   commentId: F:EasyShortcuts.InputActionShortcut`2.Data1
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.Data1
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).Data1
-  nameWithType: InputActionShortcut<T0, T1>.Data1
-  nameWithType.vb: InputActionShortcut(Of T0, T1).Data1
-- uid: EasyShortcuts.InputActionShortcut`2.UserAction
-  name: UserAction
-  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2_UserAction
-  commentId: F:EasyShortcuts.InputActionShortcut`2.UserAction
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1>.UserAction
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1).UserAction
-  nameWithType: InputActionShortcut<T0, T1>.UserAction
-  nameWithType.vb: InputActionShortcut(Of T0, T1).UserAction
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.Data1
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).Data1
+  nameWithType: InputActionShortcut<T1, T2>.Data1
+  nameWithType.vb: InputActionShortcut(Of T1, T2).Data1
+- uid: EasyShortcuts.InputActionShortcut`2.Data2
+  name: Data2
+  href: api/EasyShortcuts.InputActionShortcut-2.html#EasyShortcuts_InputActionShortcut_2_Data2
+  commentId: F:EasyShortcuts.InputActionShortcut`2.Data2
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2>.Data2
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2).Data2
+  nameWithType: InputActionShortcut<T1, T2>.Data2
+  nameWithType.vb: InputActionShortcut(Of T1, T2).Data2
 - uid: EasyShortcuts.InputActionShortcut`3
-  name: InputActionShortcut<T0, T1, T2>
+  name: InputActionShortcut<T1, T2, T3>
   href: api/EasyShortcuts.InputActionShortcut-3.html
   commentId: T:EasyShortcuts.InputActionShortcut`3
-  name.vb: InputActionShortcut(Of T0, T1, T2)
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2)
-  nameWithType: InputActionShortcut<T0, T1, T2>
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2)
-- uid: EasyShortcuts.InputActionShortcut`3.#ctor(Action{InputAction.CallbackContext,`0,`1,`2})
-  name: InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2>)
-  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3__ctor_Action_InputAction_CallbackContext__0__1__2__
-  commentId: M:EasyShortcuts.InputActionShortcut`3.#ctor(Action{InputAction.CallbackContext,`0,`1,`2})
-  name.vb: InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2))
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2>)
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2))
-  nameWithType: InputActionShortcut<T0, T1, T2>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2>)
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2))
+  name.vb: InputActionShortcut(Of T1, T2, T3)
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3)
+  nameWithType: InputActionShortcut<T1, T2, T3>
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3)
+- uid: EasyShortcuts.InputActionShortcut`3.#ctor(Action{`0,`1,`2,Context})
+  name: InputActionShortcut(Action<T1, T2, T3, Context>)
+  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3__ctor_Action__0__1__2_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut`3.#ctor(Action{`0,`1,`2,Context})
+  name.vb: InputActionShortcut(Action(Of T1, T2, T3, Context))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.InputActionShortcut(Action<T1, T2, T3, Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).InputActionShortcut(Action(Of T1, T2, T3, Context))
+  nameWithType: InputActionShortcut<T1, T2, T3>.InputActionShortcut(Action<T1, T2, T3, Context>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).InputActionShortcut(Action(Of T1, T2, T3, Context))
+- uid: EasyShortcuts.InputActionShortcut`3.#ctor(Action{`0,`1,`2})
+  name: InputActionShortcut(Action<T1, T2, T3>)
+  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3__ctor_Action__0__1__2__
+  commentId: M:EasyShortcuts.InputActionShortcut`3.#ctor(Action{`0,`1,`2})
+  name.vb: InputActionShortcut(Action(Of T1, T2, T3))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.InputActionShortcut(Action<T1, T2, T3>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).InputActionShortcut(Action(Of T1, T2, T3))
+  nameWithType: InputActionShortcut<T1, T2, T3>.InputActionShortcut(Action<T1, T2, T3>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).InputActionShortcut(Action(Of T1, T2, T3))
 - uid: EasyShortcuts.InputActionShortcut`3.#ctor*
   name: InputActionShortcut
   href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3__ctor_
   commentId: Overload:EasyShortcuts.InputActionShortcut`3.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.InputActionShortcut
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).InputActionShortcut
-  nameWithType: InputActionShortcut<T0, T1, T2>.InputActionShortcut
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).InputActionShortcut
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.InputActionShortcut
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).InputActionShortcut
+  nameWithType: InputActionShortcut<T1, T2, T3>.InputActionShortcut
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).InputActionShortcut
 - uid: EasyShortcuts.InputActionShortcut`3.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_ArgumentNames
   commentId: F:EasyShortcuts.InputActionShortcut`3.ArgumentNames
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.ArgumentNames
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).ArgumentNames
-  nameWithType: InputActionShortcut<T0, T1, T2>.ArgumentNames
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).ArgumentNames
-- uid: EasyShortcuts.InputActionShortcut`3.Data0
-  name: Data0
-  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_Data0
-  commentId: F:EasyShortcuts.InputActionShortcut`3.Data0
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.Data0
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).Data0
-  nameWithType: InputActionShortcut<T0, T1, T2>.Data0
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).Data0
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.ArgumentNames
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).ArgumentNames
+  nameWithType: InputActionShortcut<T1, T2, T3>.ArgumentNames
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).ArgumentNames
 - uid: EasyShortcuts.InputActionShortcut`3.Data1
   name: Data1
   href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_Data1
   commentId: F:EasyShortcuts.InputActionShortcut`3.Data1
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.Data1
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).Data1
-  nameWithType: InputActionShortcut<T0, T1, T2>.Data1
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).Data1
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.Data1
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).Data1
+  nameWithType: InputActionShortcut<T1, T2, T3>.Data1
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).Data1
 - uid: EasyShortcuts.InputActionShortcut`3.Data2
   name: Data2
   href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_Data2
   commentId: F:EasyShortcuts.InputActionShortcut`3.Data2
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.Data2
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).Data2
-  nameWithType: InputActionShortcut<T0, T1, T2>.Data2
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).Data2
-- uid: EasyShortcuts.InputActionShortcut`3.UserAction
-  name: UserAction
-  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_UserAction
-  commentId: F:EasyShortcuts.InputActionShortcut`3.UserAction
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2>.UserAction
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2).UserAction
-  nameWithType: InputActionShortcut<T0, T1, T2>.UserAction
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2).UserAction
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.Data2
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).Data2
+  nameWithType: InputActionShortcut<T1, T2, T3>.Data2
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).Data2
+- uid: EasyShortcuts.InputActionShortcut`3.Data3
+  name: Data3
+  href: api/EasyShortcuts.InputActionShortcut-3.html#EasyShortcuts_InputActionShortcut_3_Data3
+  commentId: F:EasyShortcuts.InputActionShortcut`3.Data3
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3>.Data3
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3).Data3
+  nameWithType: InputActionShortcut<T1, T2, T3>.Data3
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3).Data3
 - uid: EasyShortcuts.InputActionShortcut`4
-  name: InputActionShortcut<T0, T1, T2, T3>
+  name: InputActionShortcut<T1, T2, T3, T4>
   href: api/EasyShortcuts.InputActionShortcut-4.html
   commentId: T:EasyShortcuts.InputActionShortcut`4
-  name.vb: InputActionShortcut(Of T0, T1, T2, T3)
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3)
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3)
-- uid: EasyShortcuts.InputActionShortcut`4.#ctor(Action{InputAction.CallbackContext,`0,`1,`2,`3})
-  name: InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2, T3>)
-  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4__ctor_Action_InputAction_CallbackContext__0__1__2__3__
-  commentId: M:EasyShortcuts.InputActionShortcut`4.#ctor(Action{InputAction.CallbackContext,`0,`1,`2,`3})
-  name.vb: InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2, T3))
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2, T3>)
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2, T3))
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.InputActionShortcut(Action<InputAction.CallbackContext, T0, T1, T2, T3>)
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).InputActionShortcut(Action(Of InputAction.CallbackContext, T0, T1, T2, T3))
+  name.vb: InputActionShortcut(Of T1, T2, T3, T4)
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4)
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4)
+- uid: EasyShortcuts.InputActionShortcut`4.#ctor(Action{`0,`1,`2,`3,Context})
+  name: InputActionShortcut(Action<T1, T2, T3, T4, Context>)
+  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4__ctor_Action__0__1__2__3_Context__
+  commentId: M:EasyShortcuts.InputActionShortcut`4.#ctor(Action{`0,`1,`2,`3,Context})
+  name.vb: InputActionShortcut(Action(Of T1, T2, T3, T4, Context))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut(Action<T1, T2, T3, T4, Context>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut(Action(Of T1, T2, T3, T4, Context))
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut(Action<T1, T2, T3, T4, Context>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut(Action(Of T1, T2, T3, T4, Context))
+- uid: EasyShortcuts.InputActionShortcut`4.#ctor(Action{`0,`1,`2,`3})
+  name: InputActionShortcut(Action<T1, T2, T3, T4>)
+  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4__ctor_Action__0__1__2__3__
+  commentId: M:EasyShortcuts.InputActionShortcut`4.#ctor(Action{`0,`1,`2,`3})
+  name.vb: InputActionShortcut(Action(Of T1, T2, T3, T4))
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut(Action<T1, T2, T3, T4>)
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut(Action(Of T1, T2, T3, T4))
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut(Action<T1, T2, T3, T4>)
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut(Action(Of T1, T2, T3, T4))
 - uid: EasyShortcuts.InputActionShortcut`4.#ctor*
   name: InputActionShortcut
   href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4__ctor_
   commentId: Overload:EasyShortcuts.InputActionShortcut`4.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.InputActionShortcut
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).InputActionShortcut
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.InputActionShortcut
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).InputActionShortcut
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.InputActionShortcut
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).InputActionShortcut
 - uid: EasyShortcuts.InputActionShortcut`4.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_ArgumentNames
   commentId: F:EasyShortcuts.InputActionShortcut`4.ArgumentNames
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.ArgumentNames
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).ArgumentNames
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.ArgumentNames
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).ArgumentNames
-- uid: EasyShortcuts.InputActionShortcut`4.Data0
-  name: Data0
-  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_Data0
-  commentId: F:EasyShortcuts.InputActionShortcut`4.Data0
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.Data0
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).Data0
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.Data0
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).Data0
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.ArgumentNames
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).ArgumentNames
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.ArgumentNames
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).ArgumentNames
 - uid: EasyShortcuts.InputActionShortcut`4.Data1
   name: Data1
   href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_Data1
   commentId: F:EasyShortcuts.InputActionShortcut`4.Data1
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.Data1
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).Data1
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.Data1
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).Data1
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.Data1
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).Data1
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.Data1
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).Data1
 - uid: EasyShortcuts.InputActionShortcut`4.Data2
   name: Data2
   href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_Data2
   commentId: F:EasyShortcuts.InputActionShortcut`4.Data2
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.Data2
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).Data2
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.Data2
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).Data2
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.Data2
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).Data2
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.Data2
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).Data2
 - uid: EasyShortcuts.InputActionShortcut`4.Data3
   name: Data3
   href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_Data3
   commentId: F:EasyShortcuts.InputActionShortcut`4.Data3
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.Data3
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).Data3
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.Data3
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).Data3
-- uid: EasyShortcuts.InputActionShortcut`4.UserAction
-  name: UserAction
-  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_UserAction
-  commentId: F:EasyShortcuts.InputActionShortcut`4.UserAction
-  fullName: EasyShortcuts.InputActionShortcut<T0, T1, T2, T3>.UserAction
-  fullName.vb: EasyShortcuts.InputActionShortcut(Of T0, T1, T2, T3).UserAction
-  nameWithType: InputActionShortcut<T0, T1, T2, T3>.UserAction
-  nameWithType.vb: InputActionShortcut(Of T0, T1, T2, T3).UserAction
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.Data3
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).Data3
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.Data3
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).Data3
+- uid: EasyShortcuts.InputActionShortcut`4.Data4
+  name: Data4
+  href: api/EasyShortcuts.InputActionShortcut-4.html#EasyShortcuts_InputActionShortcut_4_Data4
+  commentId: F:EasyShortcuts.InputActionShortcut`4.Data4
+  fullName: EasyShortcuts.InputActionShortcut<T1, T2, T3, T4>.Data4
+  fullName.vb: EasyShortcuts.InputActionShortcut(Of T1, T2, T3, T4).Data4
+  nameWithType: InputActionShortcut<T1, T2, T3, T4>.Data4
+  nameWithType.vb: InputActionShortcut(Of T1, T2, T3, T4).Data4
 - uid: EasyShortcuts.InputActionShortcutSet
   name: InputActionShortcutSet
   href: api/EasyShortcuts.InputActionShortcutSet.html
@@ -349,12 +369,12 @@ references:
   commentId: M:EasyShortcuts.Shortcut.#ctor
   fullName: EasyShortcuts.Shortcut.Shortcut()
   nameWithType: Shortcut.Shortcut()
-- uid: EasyShortcuts.Shortcut.#ctor(EasyShortcuts.Shortcut.Function)
-  name: Shortcut(Shortcut.Function)
-  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut__ctor_EasyShortcuts_Shortcut_Function_
-  commentId: M:EasyShortcuts.Shortcut.#ctor(EasyShortcuts.Shortcut.Function)
-  fullName: EasyShortcuts.Shortcut.Shortcut(EasyShortcuts.Shortcut.Function)
-  nameWithType: Shortcut.Shortcut(Shortcut.Function)
+- uid: EasyShortcuts.Shortcut.#ctor(Action)
+  name: Shortcut(Action)
+  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut__ctor_Action_
+  commentId: M:EasyShortcuts.Shortcut.#ctor(Action)
+  fullName: EasyShortcuts.Shortcut.Shortcut(Action)
+  nameWithType: Shortcut.Shortcut(Action)
 - uid: EasyShortcuts.Shortcut.#ctor*
   name: Shortcut
   href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut__ctor_
@@ -362,25 +382,19 @@ references:
   isSpec: "True"
   fullName: EasyShortcuts.Shortcut.Shortcut
   nameWithType: Shortcut.Shortcut
-- uid: EasyShortcuts.Shortcut.CallFunction
-  name: CallFunction
-  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_CallFunction
-  commentId: F:EasyShortcuts.Shortcut.CallFunction
-  fullName: EasyShortcuts.Shortcut.CallFunction
-  nameWithType: Shortcut.CallFunction
-- uid: EasyShortcuts.Shortcut.Check
-  name: Check()
-  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_Check
-  commentId: M:EasyShortcuts.Shortcut.Check
-  fullName: EasyShortcuts.Shortcut.Check()
-  nameWithType: Shortcut.Check()
-- uid: EasyShortcuts.Shortcut.Check*
-  name: Check
-  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_Check_
-  commentId: Overload:EasyShortcuts.Shortcut.Check
+- uid: EasyShortcuts.Shortcut.ActIfTriggered
+  name: ActIfTriggered()
+  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_ActIfTriggered
+  commentId: M:EasyShortcuts.Shortcut.ActIfTriggered
+  fullName: EasyShortcuts.Shortcut.ActIfTriggered()
+  nameWithType: Shortcut.ActIfTriggered()
+- uid: EasyShortcuts.Shortcut.ActIfTriggered*
+  name: ActIfTriggered
+  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_ActIfTriggered_
+  commentId: Overload:EasyShortcuts.Shortcut.ActIfTriggered
   isSpec: "True"
-  fullName: EasyShortcuts.Shortcut.Check
-  nameWithType: Shortcut.Check
+  fullName: EasyShortcuts.Shortcut.ActIfTriggered
+  nameWithType: Shortcut.ActIfTriggered
 - uid: EasyShortcuts.Shortcut.DownKey
   name: DownKey
   href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_DownKey
@@ -393,12 +407,6 @@ references:
   commentId: F:EasyShortcuts.Shortcut.Enabled
   fullName: EasyShortcuts.Shortcut.Enabled
   nameWithType: Shortcut.Enabled
-- uid: EasyShortcuts.Shortcut.Function
-  name: Shortcut.Function
-  href: api/EasyShortcuts.Shortcut.Function.html
-  commentId: T:EasyShortcuts.Shortcut.Function
-  fullName: EasyShortcuts.Shortcut.Function
-  nameWithType: Shortcut.Function
 - uid: EasyShortcuts.Shortcut.HoldKey
   name: HoldKey
   href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_HoldKey
@@ -429,12 +437,12 @@ references:
   commentId: F:EasyShortcuts.Shortcut.KeyType.SINGLEKEY
   fullName: EasyShortcuts.Shortcut.KeyType.SINGLEKEY
   nameWithType: Shortcut.KeyType.SINGLEKEY
-- uid: EasyShortcuts.Shortcut.Trigger
-  name: Shortcut.Trigger
-  href: api/EasyShortcuts.Shortcut.Trigger.html
-  commentId: T:EasyShortcuts.Shortcut.Trigger
-  fullName: EasyShortcuts.Shortcut.Trigger
-  nameWithType: Shortcut.Trigger
+- uid: EasyShortcuts.Shortcut.ShortcutAction
+  name: ShortcutAction
+  href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_ShortcutAction
+  commentId: F:EasyShortcuts.Shortcut.ShortcutAction
+  fullName: EasyShortcuts.Shortcut.ShortcutAction
+  nameWithType: Shortcut.ShortcutAction
 - uid: EasyShortcuts.Shortcut.Triggered
   name: Triggered
   href: api/EasyShortcuts.Shortcut.html#EasyShortcuts_Shortcut_Triggered
@@ -449,261 +457,225 @@ references:
   fullName: EasyShortcuts.Shortcut.Triggered
   nameWithType: Shortcut.Triggered
 - uid: EasyShortcuts.Shortcut`1
-  name: Shortcut<T0>
+  name: Shortcut<T1>
   href: api/EasyShortcuts.Shortcut-1.html
   commentId: T:EasyShortcuts.Shortcut`1
-  name.vb: Shortcut(Of T0)
-  fullName: EasyShortcuts.Shortcut<T0>
-  fullName.vb: EasyShortcuts.Shortcut(Of T0)
-  nameWithType: Shortcut<T0>
-  nameWithType.vb: Shortcut(Of T0)
-- uid: EasyShortcuts.Shortcut`1.#ctor(EasyShortcuts.Shortcut{`0}.Function)
-  name: Shortcut(Shortcut<T0>.Function)
-  href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1__ctor_EasyShortcuts_Shortcut__0__Function_
-  commentId: M:EasyShortcuts.Shortcut`1.#ctor(EasyShortcuts.Shortcut{`0}.Function)
-  name.vb: Shortcut(Shortcut(Of T0).Function)
-  fullName: EasyShortcuts.Shortcut<T0>.Shortcut(EasyShortcuts.Shortcut<T0>.Function)
-  fullName.vb: EasyShortcuts.Shortcut(Of T0).Shortcut(EasyShortcuts.Shortcut(Of T0).Function)
-  nameWithType: Shortcut<T0>.Shortcut(Shortcut<T0>.Function)
-  nameWithType.vb: Shortcut(Of T0).Shortcut(Shortcut(Of T0).Function)
+  name.vb: Shortcut(Of T1)
+  fullName: EasyShortcuts.Shortcut<T1>
+  fullName.vb: EasyShortcuts.Shortcut(Of T1)
+  nameWithType: Shortcut<T1>
+  nameWithType.vb: Shortcut(Of T1)
+- uid: EasyShortcuts.Shortcut`1.#ctor(Action{`0})
+  name: Shortcut(Action<T1>)
+  href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1__ctor_Action__0__
+  commentId: M:EasyShortcuts.Shortcut`1.#ctor(Action{`0})
+  name.vb: Shortcut(Action(Of T1))
+  fullName: EasyShortcuts.Shortcut<T1>.Shortcut(Action<T1>)
+  fullName.vb: EasyShortcuts.Shortcut(Of T1).Shortcut(Action(Of T1))
+  nameWithType: Shortcut<T1>.Shortcut(Action<T1>)
+  nameWithType.vb: Shortcut(Of T1).Shortcut(Action(Of T1))
 - uid: EasyShortcuts.Shortcut`1.#ctor*
   name: Shortcut
   href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1__ctor_
   commentId: Overload:EasyShortcuts.Shortcut`1.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.Shortcut<T0>.Shortcut
-  fullName.vb: EasyShortcuts.Shortcut(Of T0).Shortcut
-  nameWithType: Shortcut<T0>.Shortcut
-  nameWithType.vb: Shortcut(Of T0).Shortcut
+  fullName: EasyShortcuts.Shortcut<T1>.Shortcut
+  fullName.vb: EasyShortcuts.Shortcut(Of T1).Shortcut
+  nameWithType: Shortcut<T1>.Shortcut
+  nameWithType.vb: Shortcut(Of T1).Shortcut
 - uid: EasyShortcuts.Shortcut`1.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1_ArgumentNames
   commentId: F:EasyShortcuts.Shortcut`1.ArgumentNames
-  fullName: EasyShortcuts.Shortcut<T0>.ArgumentNames
-  fullName.vb: EasyShortcuts.Shortcut(Of T0).ArgumentNames
-  nameWithType: Shortcut<T0>.ArgumentNames
-  nameWithType.vb: Shortcut(Of T0).ArgumentNames
-- uid: EasyShortcuts.Shortcut`1.Data0
-  name: Data0
-  href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1_Data0
-  commentId: F:EasyShortcuts.Shortcut`1.Data0
-  fullName: EasyShortcuts.Shortcut<T0>.Data0
-  fullName.vb: EasyShortcuts.Shortcut(Of T0).Data0
-  nameWithType: Shortcut<T0>.Data0
-  nameWithType.vb: Shortcut(Of T0).Data0
-- uid: EasyShortcuts.Shortcut`1.Function
-  name: Shortcut<T0>.Function
-  href: api/EasyShortcuts.Shortcut-1.Function.html
-  commentId: T:EasyShortcuts.Shortcut`1.Function
-  name.vb: Shortcut(Of T0).Function
-  fullName: EasyShortcuts.Shortcut<T0>.Function
-  fullName.vb: EasyShortcuts.Shortcut(Of T0).Function
-  nameWithType: Shortcut<T0>.Function
-  nameWithType.vb: Shortcut(Of T0).Function
+  fullName: EasyShortcuts.Shortcut<T1>.ArgumentNames
+  fullName.vb: EasyShortcuts.Shortcut(Of T1).ArgumentNames
+  nameWithType: Shortcut<T1>.ArgumentNames
+  nameWithType.vb: Shortcut(Of T1).ArgumentNames
+- uid: EasyShortcuts.Shortcut`1.Data1
+  name: Data1
+  href: api/EasyShortcuts.Shortcut-1.html#EasyShortcuts_Shortcut_1_Data1
+  commentId: F:EasyShortcuts.Shortcut`1.Data1
+  fullName: EasyShortcuts.Shortcut<T1>.Data1
+  fullName.vb: EasyShortcuts.Shortcut(Of T1).Data1
+  nameWithType: Shortcut<T1>.Data1
+  nameWithType.vb: Shortcut(Of T1).Data1
 - uid: EasyShortcuts.Shortcut`2
-  name: Shortcut<T0, T1>
+  name: Shortcut<T1, T2>
   href: api/EasyShortcuts.Shortcut-2.html
   commentId: T:EasyShortcuts.Shortcut`2
-  name.vb: Shortcut(Of T0, T1)
-  fullName: EasyShortcuts.Shortcut<T0, T1>
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1)
-  nameWithType: Shortcut<T0, T1>
-  nameWithType.vb: Shortcut(Of T0, T1)
-- uid: EasyShortcuts.Shortcut`2.#ctor(EasyShortcuts.Shortcut{`0,`1}.Function)
-  name: Shortcut(Shortcut<T0, T1>.Function)
-  href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2__ctor_EasyShortcuts_Shortcut__0__1__Function_
-  commentId: M:EasyShortcuts.Shortcut`2.#ctor(EasyShortcuts.Shortcut{`0,`1}.Function)
-  name.vb: Shortcut(Shortcut(Of T0, T1).Function)
-  fullName: EasyShortcuts.Shortcut<T0, T1>.Shortcut(EasyShortcuts.Shortcut<T0, T1>.Function)
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).Shortcut(EasyShortcuts.Shortcut(Of T0, T1).Function)
-  nameWithType: Shortcut<T0, T1>.Shortcut(Shortcut<T0, T1>.Function)
-  nameWithType.vb: Shortcut(Of T0, T1).Shortcut(Shortcut(Of T0, T1).Function)
+  name.vb: Shortcut(Of T1, T2)
+  fullName: EasyShortcuts.Shortcut<T1, T2>
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2)
+  nameWithType: Shortcut<T1, T2>
+  nameWithType.vb: Shortcut(Of T1, T2)
+- uid: EasyShortcuts.Shortcut`2.#ctor(Action{`0,`1})
+  name: Shortcut(Action<T1, T2>)
+  href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2__ctor_Action__0__1__
+  commentId: M:EasyShortcuts.Shortcut`2.#ctor(Action{`0,`1})
+  name.vb: Shortcut(Action(Of T1, T2))
+  fullName: EasyShortcuts.Shortcut<T1, T2>.Shortcut(Action<T1, T2>)
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2).Shortcut(Action(Of T1, T2))
+  nameWithType: Shortcut<T1, T2>.Shortcut(Action<T1, T2>)
+  nameWithType.vb: Shortcut(Of T1, T2).Shortcut(Action(Of T1, T2))
 - uid: EasyShortcuts.Shortcut`2.#ctor*
   name: Shortcut
   href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2__ctor_
   commentId: Overload:EasyShortcuts.Shortcut`2.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.Shortcut<T0, T1>.Shortcut
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).Shortcut
-  nameWithType: Shortcut<T0, T1>.Shortcut
-  nameWithType.vb: Shortcut(Of T0, T1).Shortcut
+  fullName: EasyShortcuts.Shortcut<T1, T2>.Shortcut
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2).Shortcut
+  nameWithType: Shortcut<T1, T2>.Shortcut
+  nameWithType.vb: Shortcut(Of T1, T2).Shortcut
 - uid: EasyShortcuts.Shortcut`2.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2_ArgumentNames
   commentId: F:EasyShortcuts.Shortcut`2.ArgumentNames
-  fullName: EasyShortcuts.Shortcut<T0, T1>.ArgumentNames
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).ArgumentNames
-  nameWithType: Shortcut<T0, T1>.ArgumentNames
-  nameWithType.vb: Shortcut(Of T0, T1).ArgumentNames
-- uid: EasyShortcuts.Shortcut`2.Data0
-  name: Data0
-  href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2_Data0
-  commentId: F:EasyShortcuts.Shortcut`2.Data0
-  fullName: EasyShortcuts.Shortcut<T0, T1>.Data0
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).Data0
-  nameWithType: Shortcut<T0, T1>.Data0
-  nameWithType.vb: Shortcut(Of T0, T1).Data0
+  fullName: EasyShortcuts.Shortcut<T1, T2>.ArgumentNames
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2).ArgumentNames
+  nameWithType: Shortcut<T1, T2>.ArgumentNames
+  nameWithType.vb: Shortcut(Of T1, T2).ArgumentNames
 - uid: EasyShortcuts.Shortcut`2.Data1
   name: Data1
   href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2_Data1
   commentId: F:EasyShortcuts.Shortcut`2.Data1
-  fullName: EasyShortcuts.Shortcut<T0, T1>.Data1
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).Data1
-  nameWithType: Shortcut<T0, T1>.Data1
-  nameWithType.vb: Shortcut(Of T0, T1).Data1
-- uid: EasyShortcuts.Shortcut`2.Function
-  name: Shortcut<T0, T1>.Function
-  href: api/EasyShortcuts.Shortcut-2.Function.html
-  commentId: T:EasyShortcuts.Shortcut`2.Function
-  name.vb: Shortcut(Of T0, T1).Function
-  fullName: EasyShortcuts.Shortcut<T0, T1>.Function
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1).Function
-  nameWithType: Shortcut<T0, T1>.Function
-  nameWithType.vb: Shortcut(Of T0, T1).Function
+  fullName: EasyShortcuts.Shortcut<T1, T2>.Data1
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2).Data1
+  nameWithType: Shortcut<T1, T2>.Data1
+  nameWithType.vb: Shortcut(Of T1, T2).Data1
+- uid: EasyShortcuts.Shortcut`2.Data2
+  name: Data2
+  href: api/EasyShortcuts.Shortcut-2.html#EasyShortcuts_Shortcut_2_Data2
+  commentId: F:EasyShortcuts.Shortcut`2.Data2
+  fullName: EasyShortcuts.Shortcut<T1, T2>.Data2
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2).Data2
+  nameWithType: Shortcut<T1, T2>.Data2
+  nameWithType.vb: Shortcut(Of T1, T2).Data2
 - uid: EasyShortcuts.Shortcut`3
-  name: Shortcut<T0, T1, T2>
+  name: Shortcut<T1, T2, T3>
   href: api/EasyShortcuts.Shortcut-3.html
   commentId: T:EasyShortcuts.Shortcut`3
-  name.vb: Shortcut(Of T0, T1, T2)
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2)
-  nameWithType: Shortcut<T0, T1, T2>
-  nameWithType.vb: Shortcut(Of T0, T1, T2)
-- uid: EasyShortcuts.Shortcut`3.#ctor(EasyShortcuts.Shortcut{`0,`1,`2}.Function)
-  name: Shortcut(Shortcut<T0, T1, T2>.Function)
-  href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3__ctor_EasyShortcuts_Shortcut__0__1__2__Function_
-  commentId: M:EasyShortcuts.Shortcut`3.#ctor(EasyShortcuts.Shortcut{`0,`1,`2}.Function)
-  name.vb: Shortcut(Shortcut(Of T0, T1, T2).Function)
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Shortcut(EasyShortcuts.Shortcut<T0, T1, T2>.Function)
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Shortcut(EasyShortcuts.Shortcut(Of T0, T1, T2).Function)
-  nameWithType: Shortcut<T0, T1, T2>.Shortcut(Shortcut<T0, T1, T2>.Function)
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Shortcut(Shortcut(Of T0, T1, T2).Function)
+  name.vb: Shortcut(Of T1, T2, T3)
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3)
+  nameWithType: Shortcut<T1, T2, T3>
+  nameWithType.vb: Shortcut(Of T1, T2, T3)
+- uid: EasyShortcuts.Shortcut`3.#ctor(Action{`0,`1,`2})
+  name: Shortcut(Action<T1, T2, T3>)
+  href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3__ctor_Action__0__1__2__
+  commentId: M:EasyShortcuts.Shortcut`3.#ctor(Action{`0,`1,`2})
+  name.vb: Shortcut(Action(Of T1, T2, T3))
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.Shortcut(Action<T1, T2, T3>)
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).Shortcut(Action(Of T1, T2, T3))
+  nameWithType: Shortcut<T1, T2, T3>.Shortcut(Action<T1, T2, T3>)
+  nameWithType.vb: Shortcut(Of T1, T2, T3).Shortcut(Action(Of T1, T2, T3))
 - uid: EasyShortcuts.Shortcut`3.#ctor*
   name: Shortcut
   href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3__ctor_
   commentId: Overload:EasyShortcuts.Shortcut`3.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Shortcut
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Shortcut
-  nameWithType: Shortcut<T0, T1, T2>.Shortcut
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Shortcut
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.Shortcut
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).Shortcut
+  nameWithType: Shortcut<T1, T2, T3>.Shortcut
+  nameWithType.vb: Shortcut(Of T1, T2, T3).Shortcut
 - uid: EasyShortcuts.Shortcut`3.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3_ArgumentNames
   commentId: F:EasyShortcuts.Shortcut`3.ArgumentNames
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.ArgumentNames
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).ArgumentNames
-  nameWithType: Shortcut<T0, T1, T2>.ArgumentNames
-  nameWithType.vb: Shortcut(Of T0, T1, T2).ArgumentNames
-- uid: EasyShortcuts.Shortcut`3.Data0
-  name: Data0
-  href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3_Data0
-  commentId: F:EasyShortcuts.Shortcut`3.Data0
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Data0
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Data0
-  nameWithType: Shortcut<T0, T1, T2>.Data0
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Data0
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.ArgumentNames
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).ArgumentNames
+  nameWithType: Shortcut<T1, T2, T3>.ArgumentNames
+  nameWithType.vb: Shortcut(Of T1, T2, T3).ArgumentNames
 - uid: EasyShortcuts.Shortcut`3.Data1
   name: Data1
   href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3_Data1
   commentId: F:EasyShortcuts.Shortcut`3.Data1
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Data1
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Data1
-  nameWithType: Shortcut<T0, T1, T2>.Data1
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Data1
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.Data1
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).Data1
+  nameWithType: Shortcut<T1, T2, T3>.Data1
+  nameWithType.vb: Shortcut(Of T1, T2, T3).Data1
 - uid: EasyShortcuts.Shortcut`3.Data2
   name: Data2
   href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3_Data2
   commentId: F:EasyShortcuts.Shortcut`3.Data2
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Data2
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Data2
-  nameWithType: Shortcut<T0, T1, T2>.Data2
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Data2
-- uid: EasyShortcuts.Shortcut`3.Function
-  name: Shortcut<T0, T1, T2>.Function
-  href: api/EasyShortcuts.Shortcut-3.Function.html
-  commentId: T:EasyShortcuts.Shortcut`3.Function
-  name.vb: Shortcut(Of T0, T1, T2).Function
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2>.Function
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2).Function
-  nameWithType: Shortcut<T0, T1, T2>.Function
-  nameWithType.vb: Shortcut(Of T0, T1, T2).Function
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.Data2
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).Data2
+  nameWithType: Shortcut<T1, T2, T3>.Data2
+  nameWithType.vb: Shortcut(Of T1, T2, T3).Data2
+- uid: EasyShortcuts.Shortcut`3.Data3
+  name: Data3
+  href: api/EasyShortcuts.Shortcut-3.html#EasyShortcuts_Shortcut_3_Data3
+  commentId: F:EasyShortcuts.Shortcut`3.Data3
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3>.Data3
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3).Data3
+  nameWithType: Shortcut<T1, T2, T3>.Data3
+  nameWithType.vb: Shortcut(Of T1, T2, T3).Data3
 - uid: EasyShortcuts.Shortcut`4
-  name: Shortcut<T0, T1, T2, T3>
+  name: Shortcut<T1, T2, T3, T4>
   href: api/EasyShortcuts.Shortcut-4.html
   commentId: T:EasyShortcuts.Shortcut`4
-  name.vb: Shortcut(Of T0, T1, T2, T3)
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3)
-  nameWithType: Shortcut<T0, T1, T2, T3>
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3)
-- uid: EasyShortcuts.Shortcut`4.#ctor(EasyShortcuts.Shortcut{`0,`1,`2,`3}.Function)
-  name: Shortcut(Shortcut<T0, T1, T2, T3>.Function)
-  href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4__ctor_EasyShortcuts_Shortcut__0__1__2__3__Function_
-  commentId: M:EasyShortcuts.Shortcut`4.#ctor(EasyShortcuts.Shortcut{`0,`1,`2,`3}.Function)
-  name.vb: Shortcut(Shortcut(Of T0, T1, T2, T3).Function)
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Shortcut(EasyShortcuts.Shortcut<T0, T1, T2, T3>.Function)
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Shortcut(EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Function)
-  nameWithType: Shortcut<T0, T1, T2, T3>.Shortcut(Shortcut<T0, T1, T2, T3>.Function)
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Shortcut(Shortcut(Of T0, T1, T2, T3).Function)
+  name.vb: Shortcut(Of T1, T2, T3, T4)
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4)
+  nameWithType: Shortcut<T1, T2, T3, T4>
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4)
+- uid: EasyShortcuts.Shortcut`4.#ctor(Action{`0,`1,`2,`3})
+  name: Shortcut(Action<T1, T2, T3, T4>)
+  href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4__ctor_Action__0__1__2__3__
+  commentId: M:EasyShortcuts.Shortcut`4.#ctor(Action{`0,`1,`2,`3})
+  name.vb: Shortcut(Action(Of T1, T2, T3, T4))
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Shortcut(Action<T1, T2, T3, T4>)
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Shortcut(Action(Of T1, T2, T3, T4))
+  nameWithType: Shortcut<T1, T2, T3, T4>.Shortcut(Action<T1, T2, T3, T4>)
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Shortcut(Action(Of T1, T2, T3, T4))
 - uid: EasyShortcuts.Shortcut`4.#ctor*
   name: Shortcut
   href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4__ctor_
   commentId: Overload:EasyShortcuts.Shortcut`4.#ctor
   isSpec: "True"
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Shortcut
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Shortcut
-  nameWithType: Shortcut<T0, T1, T2, T3>.Shortcut
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Shortcut
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Shortcut
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Shortcut
+  nameWithType: Shortcut<T1, T2, T3, T4>.Shortcut
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Shortcut
 - uid: EasyShortcuts.Shortcut`4.ArgumentNames
   name: ArgumentNames
   href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_ArgumentNames
   commentId: F:EasyShortcuts.Shortcut`4.ArgumentNames
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.ArgumentNames
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).ArgumentNames
-  nameWithType: Shortcut<T0, T1, T2, T3>.ArgumentNames
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).ArgumentNames
-- uid: EasyShortcuts.Shortcut`4.Data0
-  name: Data0
-  href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_Data0
-  commentId: F:EasyShortcuts.Shortcut`4.Data0
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Data0
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Data0
-  nameWithType: Shortcut<T0, T1, T2, T3>.Data0
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Data0
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.ArgumentNames
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).ArgumentNames
+  nameWithType: Shortcut<T1, T2, T3, T4>.ArgumentNames
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).ArgumentNames
 - uid: EasyShortcuts.Shortcut`4.Data1
   name: Data1
   href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_Data1
   commentId: F:EasyShortcuts.Shortcut`4.Data1
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Data1
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Data1
-  nameWithType: Shortcut<T0, T1, T2, T3>.Data1
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Data1
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Data1
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Data1
+  nameWithType: Shortcut<T1, T2, T3, T4>.Data1
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Data1
 - uid: EasyShortcuts.Shortcut`4.Data2
   name: Data2
   href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_Data2
   commentId: F:EasyShortcuts.Shortcut`4.Data2
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Data2
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Data2
-  nameWithType: Shortcut<T0, T1, T2, T3>.Data2
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Data2
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Data2
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Data2
+  nameWithType: Shortcut<T1, T2, T3, T4>.Data2
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Data2
 - uid: EasyShortcuts.Shortcut`4.Data3
   name: Data3
   href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_Data3
   commentId: F:EasyShortcuts.Shortcut`4.Data3
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Data3
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Data3
-  nameWithType: Shortcut<T0, T1, T2, T3>.Data3
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Data3
-- uid: EasyShortcuts.Shortcut`4.Function
-  name: Shortcut<T0, T1, T2, T3>.Function
-  href: api/EasyShortcuts.Shortcut-4.Function.html
-  commentId: T:EasyShortcuts.Shortcut`4.Function
-  name.vb: Shortcut(Of T0, T1, T2, T3).Function
-  fullName: EasyShortcuts.Shortcut<T0, T1, T2, T3>.Function
-  fullName.vb: EasyShortcuts.Shortcut(Of T0, T1, T2, T3).Function
-  nameWithType: Shortcut<T0, T1, T2, T3>.Function
-  nameWithType.vb: Shortcut(Of T0, T1, T2, T3).Function
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Data3
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Data3
+  nameWithType: Shortcut<T1, T2, T3, T4>.Data3
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Data3
+- uid: EasyShortcuts.Shortcut`4.Data4
+  name: Data4
+  href: api/EasyShortcuts.Shortcut-4.html#EasyShortcuts_Shortcut_4_Data4
+  commentId: F:EasyShortcuts.Shortcut`4.Data4
+  fullName: EasyShortcuts.Shortcut<T1, T2, T3, T4>.Data4
+  fullName.vb: EasyShortcuts.Shortcut(Of T1, T2, T3, T4).Data4
+  nameWithType: Shortcut<T1, T2, T3, T4>.Data4
+  nameWithType.vb: Shortcut(Of T1, T2, T3, T4).Data4
 - uid: EasyShortcuts.ShortcutDrawer
   name: ShortcutDrawer
   href: api/EasyShortcuts.ShortcutDrawer.html
