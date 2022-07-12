@@ -246,53 +246,76 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voidShortcut:
-    Enabled: 1
-    Input:
+    m_Input:
       m_UseReference: 0
       m_Action:
         m_Name: Input
         m_Type: 0
         m_ExpectedControlType: 
-        m_Id: 4d76d340-2162-445f-9962-3e1cec2efc53
+        m_Id: de908e1e-8094-4315-9cd6-9488cbc59dc8
         m_Processors: 
         m_Interactions: 
         m_SingletonActionBindings: []
         m_Flags: 0
       m_Reference: {fileID: 0}
-  T0Shortcut:
-    Enabled: 1
-    Input:
+    m_Phase: 0
+  T1Shortcut:
+    m_Input:
       m_UseReference: 0
       m_Action:
-        m_Name: 
+        m_Name: Input
         m_Type: 0
         m_ExpectedControlType: 
-        m_Id: 
+        m_Id: 70e58cf8-8b1d-46c0-92db-305671d92179
         m_Processors: 
         m_Interactions: 
         m_SingletonActionBindings: []
         m_Flags: 0
       m_Reference: {fileID: 0}
+    m_Phase: 0
     ArgumentNames:
-    - Argument 0
-    Data0: {fileID: 0}
-  OtherT0Test:
-    Enabled: 1
-    Input:
+    - Argument 1
+    Data1: {fileID: 0}
+  OtherT1Test:
+    m_Input:
       m_UseReference: 0
       m_Action:
-        m_Name: 
+        m_Name: Input
         m_Type: 0
         m_ExpectedControlType: 
-        m_Id: 
+        m_Id: bb325923-7d2d-4304-a7e4-9c695c334d7f
         m_Processors: 
         m_Interactions: 
         m_SingletonActionBindings: []
         m_Flags: 0
       m_Reference: {fileID: 0}
+    m_Phase: 3
     ArgumentNames:
-    - Argument 0
-    Data0: {fileID: 0}
+    - Argument 1
+    Data1: {fileID: 0}
+  T4Test:
+    m_Input:
+      m_UseReference: 0
+      m_Action:
+        m_Name: Input
+        m_Type: 0
+        m_ExpectedControlType: 
+        m_Id: cf6a6dca-0106-4251-9dff-b5cbd3165131
+        m_Processors: 
+        m_Interactions: 
+        m_SingletonActionBindings: []
+        m_Flags: 0
+      m_Reference: {fileID: 0}
+    m_Phase: 0
+    ArgumentNames:
+    - Argument 1
+    - Argument 2
+    - Argument 3
+    - Argument 4
+    Data1: {fileID: 0}
+    Data2: {fileID: 0}
+    Data3: {fileID: 0}
+    Data4: {fileID: 0}
 --- !u!4 &1476148657
 Transform:
   m_ObjectHideFlags: 0

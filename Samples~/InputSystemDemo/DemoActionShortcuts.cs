@@ -12,16 +12,29 @@ namespace EasyShortcuts.Samples
                 Debug.Log("Void");
             });
 
-        public InputActionShortcut<Camera> T0Shortcut = new InputActionShortcut<Camera>(
-            delegate (InputAction.CallbackContext context, Camera cam)
+        [Space]
+        public InputActionShortcut<Camera> T1Shortcut = new InputActionShortcut<Camera>(
+            delegate (Camera cam, InputAction.CallbackContext context)
             {
                 Debug.Log("cam");
             });
 
-        public InputActionShortcut<Camera> OtherT0Test = new InputActionShortcut<Camera>(T0Test);
-        public static void T0Test(InputAction.CallbackContext context, Camera cam)
+        [Space]
+        public InputActionShortcut<Camera> OtherT1Test = new InputActionShortcut<Camera>(T1Test);
+        public static void T1Test(Camera cam, InputAction.CallbackContext context)
         {
             Debug.Log("Meth");
         }
+
+        [Space]
+        public InputActionShortcut<Object, Object, Object, Object> T4Test =
+            new InputActionShortcut<Object, Object, Object, Object>(
+                delegate (Object a, Object b, Object c, Object d)
+                {
+                Debug.Log($"{a}, {b}, {c}, {d}");
+                }
+            );
+
+
     }
 }
