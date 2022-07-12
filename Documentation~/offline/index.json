@@ -1,0 +1,82 @@
+{
+  "api/EasyShortcuts.html": {
+    "href": "api/EasyShortcuts.html",
+    "title": "Namespace EasyShortcuts | Easy Shortcuts",
+    "keywords": "Namespace EasyShortcuts Classes InputActionShortcut InputActionShortcut<T1> InputActionShortcut<T1, T2> InputActionShortcut<T1, T2, T3> InputActionShortcut<T1, T2, T3, T4> InputActionShortcutSet Shortcut Shortcut<T1> Shortcut<T1, T2> Shortcut<T1, T2, T3> Shortcut<T1, T2, T3, T4> ShortcutDrawer ShortcutSet Enums Shortcut.KeyType"
+  },
+  "api/EasyShortcuts.InputActionShortcut.html": {
+    "href": "api/EasyShortcuts.InputActionShortcut.html",
+    "title": "Class InputActionShortcut | Easy Shortcuts",
+    "keywords": "Class InputActionShortcut Inheritance Object InputActionShortcut InputActionShortcut<T1> InputActionShortcut<T1, T2> InputActionShortcut<T1, T2, T3> InputActionShortcut<T1, T2, T3, T4> Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class InputActionShortcut Constructors InputActionShortcut() Declaration public InputActionShortcut() InputActionShortcut(Action) Declaration public InputActionShortcut(Action act) Parameters Type Name Description Action act InputActionShortcut(Action<Context>) Declaration public InputActionShortcut(Action<Context> act) Parameters Type Name Description Action < Context > act Fields m_Input Declaration protected InputActionProperty m_Input Field Value Type Description InputActionProperty m_Phase Declaration protected InputActionPhase m_Phase Field Value Type Description InputActionPhase Methods Disable() Declaration public void Disable() Enable() Declaration public void Enable() SetListener(Action<Context>) Declaration protected void SetListener(Action<Context> act) Parameters Type Name Description Action < Context > act"
+  },
+  "api/EasyShortcuts.InputActionShortcut-1.html": {
+    "href": "api/EasyShortcuts.InputActionShortcut-1.html",
+    "title": "Class InputActionShortcut<T1> | Easy Shortcuts",
+    "keywords": "Class InputActionShortcut<T1> Inheritance Object InputActionShortcut InputActionShortcut<T1> Inherited Members InputActionShortcut.m_Input InputActionShortcut.m_Phase InputActionShortcut.Enable() InputActionShortcut.Disable() InputActionShortcut.SetListener(Action<Context>) Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class InputActionShortcut<T1> : InputActionShortcut Type Parameters Name Description T1 Constructors InputActionShortcut(Action<T1, Context>) Declaration public InputActionShortcut(Action<T1, Context> act) Parameters Type Name Description Action <T1, Context > act InputActionShortcut(Action<T1>) Declaration public InputActionShortcut(Action<T1> act) Parameters Type Name Description Action <T1> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1"
+  },
+  "api/EasyShortcuts.InputActionShortcut-2.html": {
+    "href": "api/EasyShortcuts.InputActionShortcut-2.html",
+    "title": "Class InputActionShortcut<T1, T2> | Easy Shortcuts",
+    "keywords": "Class InputActionShortcut<T1, T2> Inheritance Object InputActionShortcut InputActionShortcut<T1, T2> Inherited Members InputActionShortcut.m_Input InputActionShortcut.m_Phase InputActionShortcut.Enable() InputActionShortcut.Disable() InputActionShortcut.SetListener(Action<Context>) Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class InputActionShortcut<T1, T2> : InputActionShortcut Type Parameters Name Description T1 T2 Constructors InputActionShortcut(Action<T1, T2, Context>) Declaration public InputActionShortcut(Action<T1, T2, Context> act) Parameters Type Name Description Action <T1, T2, Context > act InputActionShortcut(Action<T1, T2>) Declaration public InputActionShortcut(Action<T1, T2> act) Parameters Type Name Description Action <T1, T2> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2"
+  },
+  "api/EasyShortcuts.InputActionShortcut-3.html": {
+    "href": "api/EasyShortcuts.InputActionShortcut-3.html",
+    "title": "Class InputActionShortcut<T1, T2, T3> | Easy Shortcuts",
+    "keywords": "Class InputActionShortcut<T1, T2, T3> Inheritance Object InputActionShortcut InputActionShortcut<T1, T2, T3> Inherited Members InputActionShortcut.m_Input InputActionShortcut.m_Phase InputActionShortcut.Enable() InputActionShortcut.Disable() InputActionShortcut.SetListener(Action<Context>) Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class InputActionShortcut<T1, T2, T3> : InputActionShortcut Type Parameters Name Description T1 T2 T3 Constructors InputActionShortcut(Action<T1, T2, T3, Context>) Declaration public InputActionShortcut(Action<T1, T2, T3, Context> act) Parameters Type Name Description Action <T1, T2, T3, Context > act InputActionShortcut(Action<T1, T2, T3>) Declaration public InputActionShortcut(Action<T1, T2, T3> act) Parameters Type Name Description Action <T1, T2, T3> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2 Data3 Declaration public T3 Data3 Field Value Type Description T3"
+  },
+  "api/EasyShortcuts.InputActionShortcut-4.html": {
+    "href": "api/EasyShortcuts.InputActionShortcut-4.html",
+    "title": "Class InputActionShortcut<T1, T2, T3, T4> | Easy Shortcuts",
+    "keywords": "Class InputActionShortcut<T1, T2, T3, T4> Inheritance Object InputActionShortcut InputActionShortcut<T1, T2, T3, T4> Inherited Members InputActionShortcut.m_Input InputActionShortcut.m_Phase InputActionShortcut.Enable() InputActionShortcut.Disable() InputActionShortcut.SetListener(Action<Context>) Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class InputActionShortcut<T1, T2, T3, T4> : InputActionShortcut Type Parameters Name Description T1 T2 T3 T4 Constructors InputActionShortcut(Action<T1, T2, T3, T4, Context>) Declaration public InputActionShortcut(Action<T1, T2, T3, T4, Context> act) Parameters Type Name Description Action <T1, T2, T3, T4, Context > act InputActionShortcut(Action<T1, T2, T3, T4>) Declaration public InputActionShortcut(Action<T1, T2, T3, T4> act) Parameters Type Name Description Action <T1, T2, T3, T4> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2 Data3 Declaration public T3 Data3 Field Value Type Description T3 Data4 Declaration public T4 Data4 Field Value Type Description T4"
+  },
+  "api/EasyShortcuts.InputActionShortcutSet.html": {
+    "href": "api/EasyShortcuts.InputActionShortcutSet.html",
+    "title": "Class InputActionShortcutSet | Easy Shortcuts",
+    "keywords": "Class InputActionShortcutSet Inheritance Object InputActionShortcutSet Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public abstract class InputActionShortcutSet : MonoBehaviour"
+  },
+  "api/EasyShortcuts.Shortcut.html": {
+    "href": "api/EasyShortcuts.Shortcut.html",
+    "title": "Class Shortcut | Easy Shortcuts",
+    "keywords": "Class Shortcut Inheritance Object Shortcut Shortcut<T1> Shortcut<T1, T2> Shortcut<T1, T2, T3> Shortcut<T1, T2, T3, T4> Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class Shortcut Constructors Shortcut() Declaration public Shortcut() Shortcut(Action) Declaration public Shortcut(Action act) Parameters Type Name Description Action act Fields DownKey Declaration public KeyCode DownKey Field Value Type Description KeyCode Enabled Declaration public bool Enabled Field Value Type Description Boolean HoldKey Declaration public KeyCode HoldKey Field Value Type Description KeyCode KeyMode Declaration public Shortcut.KeyType KeyMode Field Value Type Description Shortcut.KeyType ShortcutAction Declaration public Action ShortcutAction Field Value Type Description Action Properties Triggered Declaration public bool Triggered { get; } Property Value Type Description Boolean Methods ActIfTriggered() Declaration public void ActIfTriggered()"
+  },
+  "api/EasyShortcuts.Shortcut.KeyType.html": {
+    "href": "api/EasyShortcuts.Shortcut.KeyType.html",
+    "title": "Enum Shortcut.KeyType | Easy Shortcuts",
+    "keywords": "Enum Shortcut.KeyType Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public enum KeyType Fields Name Description DUALKEY SINGLEKEY"
+  },
+  "api/EasyShortcuts.Shortcut-1.html": {
+    "href": "api/EasyShortcuts.Shortcut-1.html",
+    "title": "Class Shortcut<T1> | Easy Shortcuts",
+    "keywords": "Class Shortcut<T1> Inheritance Object Shortcut Shortcut<T1> Inherited Members Shortcut.Enabled Shortcut.KeyMode Shortcut.HoldKey Shortcut.DownKey Shortcut.ShortcutAction Shortcut.Triggered Shortcut.ActIfTriggered() Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class Shortcut<T1> : Shortcut Type Parameters Name Description T1 Constructors Shortcut(Action<T1>) Declaration public Shortcut(Action<T1> act) Parameters Type Name Description Action <T1> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1"
+  },
+  "api/EasyShortcuts.Shortcut-2.html": {
+    "href": "api/EasyShortcuts.Shortcut-2.html",
+    "title": "Class Shortcut<T1, T2> | Easy Shortcuts",
+    "keywords": "Class Shortcut<T1, T2> Inheritance Object Shortcut Shortcut<T1, T2> Inherited Members Shortcut.Enabled Shortcut.KeyMode Shortcut.HoldKey Shortcut.DownKey Shortcut.ShortcutAction Shortcut.Triggered Shortcut.ActIfTriggered() Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class Shortcut<T1, T2> : Shortcut Type Parameters Name Description T1 T2 Constructors Shortcut(Action<T1, T2>) Declaration public Shortcut(Action<T1, T2> act) Parameters Type Name Description Action <T1, T2> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2"
+  },
+  "api/EasyShortcuts.Shortcut-3.html": {
+    "href": "api/EasyShortcuts.Shortcut-3.html",
+    "title": "Class Shortcut<T1, T2, T3> | Easy Shortcuts",
+    "keywords": "Class Shortcut<T1, T2, T3> Inheritance Object Shortcut Shortcut<T1, T2, T3> Inherited Members Shortcut.Enabled Shortcut.KeyMode Shortcut.HoldKey Shortcut.DownKey Shortcut.ShortcutAction Shortcut.Triggered Shortcut.ActIfTriggered() Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class Shortcut<T1, T2, T3> : Shortcut Type Parameters Name Description T1 T2 T3 Constructors Shortcut(Action<T1, T2, T3>) Declaration public Shortcut(Action<T1, T2, T3> act) Parameters Type Name Description Action <T1, T2, T3> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2 Data3 Declaration public T3 Data3 Field Value Type Description T3"
+  },
+  "api/EasyShortcuts.Shortcut-4.html": {
+    "href": "api/EasyShortcuts.Shortcut-4.html",
+    "title": "Class Shortcut<T1, T2, T3, T4> | Easy Shortcuts",
+    "keywords": "Class Shortcut<T1, T2, T3, T4> Inheritance Object Shortcut Shortcut<T1, T2, T3, T4> Inherited Members Shortcut.Enabled Shortcut.KeyMode Shortcut.HoldKey Shortcut.DownKey Shortcut.ShortcutAction Shortcut.Triggered Shortcut.ActIfTriggered() Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class Shortcut<T1, T2, T3, T4> : Shortcut Type Parameters Name Description T1 T2 T3 T4 Constructors Shortcut(Action<T1, T2, T3, T4>) Declaration public Shortcut(Action<T1, T2, T3, T4> act) Parameters Type Name Description Action <T1, T2, T3, T4> act Fields ArgumentNames Declaration public string[] ArgumentNames Field Value Type Description String [] Data1 Declaration public T1 Data1 Field Value Type Description T1 Data2 Declaration public T2 Data2 Field Value Type Description T2 Data3 Declaration public T3 Data3 Field Value Type Description T3 Data4 Declaration public T4 Data4 Field Value Type Description T4"
+  },
+  "api/EasyShortcuts.ShortcutDrawer.html": {
+    "href": "api/EasyShortcuts.ShortcutDrawer.html",
+    "title": "Class ShortcutDrawer | Easy Shortcuts",
+    "keywords": "Class ShortcutDrawer Inheritance Object ShortcutDrawer Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public class ShortcutDrawer : PropertyDrawer Methods GetPropertyHeight(SerializedProperty, GUIContent) Declaration public override float GetPropertyHeight(SerializedProperty property, GUIContent label) Parameters Type Name Description SerializedProperty property GUIContent label Returns Type Description Single OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
+  },
+  "api/EasyShortcuts.ShortcutSet.html": {
+    "href": "api/EasyShortcuts.ShortcutSet.html",
+    "title": "Class ShortcutSet | Easy Shortcuts",
+    "keywords": "Class ShortcutSet Inheritance Object ShortcutSet Namespace : EasyShortcuts Assembly : cs.temp.dll.dll Syntax public abstract class ShortcutSet : MonoBehaviour"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Easy Shortcuts | Easy Shortcuts",
+    "keywords": "Easy Shortcuts Installation Install via git url by adding this entry in your manifest.json \"com.lemoissonneur.easyshortcuts\": \"https://github.com/lemoissonneur/EasyShortcuts.git#upm\""
+  }
+}
