@@ -23,19 +23,13 @@ namespace EasyShortcuts
         private void OnEnable()
         {
             foreach (InputActionShortcut shortcut in _shortcuts)
-                if (shortcut.Enabled) shortcut.Enable();
+                shortcut.Enable();
         }
 
         private void OnDisable()
         {
             foreach (InputActionShortcut shortcut in _shortcuts)
                 shortcut.Disable();
-        }
-
-        private void OnValidate()
-        {
-            OnDisable();
-            OnEnable();
         }
     }
 }
